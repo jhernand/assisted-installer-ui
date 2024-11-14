@@ -171,6 +171,7 @@ const hostDiscoveryStepValidationsMap: WizardStepValidationMap = {
       'odf-requirements-satisfied',
       'lvm-requirements-satisfied',
       'cnv-requirements-satisfied',
+      'openshift-ai-requirements-satisfied',
     ],
   },
   host: {
@@ -183,6 +184,7 @@ const hostDiscoveryStepValidationsMap: WizardStepValidationMap = {
       'odf-requirements-satisfied',
       'lvm-requirements-satisfied',
       'cnv-requirements-satisfied',
+      'openshift-ai-requirements-satisfied',
     ],
   },
   softValidationIds: ['no-skip-installation-disk', 'no-skip-missing-disk'],

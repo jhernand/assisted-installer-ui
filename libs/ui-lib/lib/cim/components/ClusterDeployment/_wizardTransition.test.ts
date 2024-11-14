@@ -39,6 +39,7 @@ const getAgentClusterInstall = (
     'odf-requirements-satisfied',
     'lso-requirements-satisfied',
     'cnv-requirements-satisfied',
+    'openshift-ai-requirements-satisfied',
   ],
 ): AgentClusterInstallK8sResource => {
   const agentClusterInstall: AgentClusterInstallK8sResource = cloneDeep(agentClusterInstallBase);
@@ -68,6 +69,7 @@ const getAgents = (
     'odf-requirements-satisfied',
     'lso-requirements-satisfied',
     'cnv-requirements-satisfied',
+    'openshift-ai-requirements-satisfied',
     'connected',
   ],
 ): AgentK8sResource[] => {

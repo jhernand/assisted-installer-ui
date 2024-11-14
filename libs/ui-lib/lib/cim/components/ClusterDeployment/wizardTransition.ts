@@ -38,6 +38,7 @@ const hostDiscoveryStepValidationsMap: WizardStepValidationMap = {
       'odf-requirements-satisfied',
       'lso-requirements-satisfied',
       'cnv-requirements-satisfied',
+      'openshift-ai-requirements-satisfied',
     ],
   },
   host: {
@@ -48,6 +49,7 @@ const hostDiscoveryStepValidationsMap: WizardStepValidationMap = {
       'odf-requirements-satisfied',
       'lso-requirements-satisfied',
       'cnv-requirements-satisfied',
+      'openshift-ai-requirements-satisfied',
     ],
   },
   softValidationIds: [],
